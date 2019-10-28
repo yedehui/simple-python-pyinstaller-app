@@ -2,7 +2,11 @@ pipeline {
     agent none 
     stages {
         stage('Build') {
-            agent none
+            agent {
+                docker {
+                    image 'busybox' 
+                }
+            }            
             steps {
                 sh 'echo hello'
             }
