@@ -17,5 +17,10 @@ and execute at the command line on Linux machines without Python.
 The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
 you'll be creating yourself during the tutorial.
 
-# https://github.com/yedehui/creating-a-pipeline-in-blue-ocean
-# git clone https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/dev-pipleline-library
+https://github.com/yedehui/creating-a-pipeline-in-blue-ocean
+git clone https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/dev-pipleline-library
+
+安装Gitlab：
+curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+EXTERNAL_URL="https://gitlab.example.com" yum install -y gitlab-ee 
+Use the default account's username root to login
