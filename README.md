@@ -18,3 +18,4 @@ The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
 you'll be creating yourself during the tutorial.
 
 # https://github.com/yedehui/creating-a-pipeline-in-blue-ocean
+# git clone https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/dev-pipleline-library
