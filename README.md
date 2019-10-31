@@ -24,3 +24,5 @@ git clone https://git-codecommit.ap-southeast-1.amazonaws.com/v1/repos/dev-piple
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
 EXTERNAL_URL="https://gitlab.example.com" yum install -y gitlab-ee 
 Use the default account's username root to login
+
+https://jenkins.io/doc/pipeline/steps/pipeline-utility-steps/
